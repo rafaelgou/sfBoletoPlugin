@@ -1,0 +1,81 @@
+<div class="recibo_do_sacado">
+
+  <div class="cabecalho_boleto">
+    <p><img class="logo" src="%IMAGE_PATH%/%LOGO_BANCO%" alt="logo banco"/></p>
+    <p class="codigo_banco">%CODIGO_DO_BANCO_COM_DV%</p>
+    <p class="linha_digitavel">%LINHA_DIGITAVEL%</p>
+  </div>
+
+  <div class="bloquete">
+    <p style="width:468px">Local de Pagamento<br/><strong>Pagável em qualquer Banco até o vencimento</strong></p>
+    <p style="width:178px">Vencimento<br/><strong>%DATA_VENCIMENTO%</strong></p>
+  </div>
+
+  <div class="bloquete">
+    <p style="width:468px">Cedente<br/><strong>%CEDENTE%</strong></p>
+    <p style="width:178px">Agência/Código do Cedente<br/><strong>%AGENCIA_CODIGO%/%CODIGO_CEDENTE%</strong></p>
+  </div>
+
+  <div class="bloquete">
+    <p style="width:122px">Data Documento<br/><strong>%DATA_DOCUMENTO%</strong></p>
+    <p style="width:122px">Número do documento<br/><strong>%NUMERO_DOCUMENTO%</strong></p>
+    <p style="width:60px">Espécie doc.<br/><strong>%ESPECIE_DOC%</strong></p>
+    <p style="width:30px">Aceite<br/><strong>%ACEITE%</strong></p>
+    <p style="width:90px">Data Processamento<br/><strong>%DATA_PROCESSAMENTO%</strong></p>
+    <p style="width:178px">Nosso número<br/><strong>%NOSSO_NUMERO%</strong></p>
+  </div>
+
+  <div class="bloquete">
+    <p style="width:122px">Uso do Banco<br/></p>
+    <p style="width:92px">Carteira<br/><strong>%CARTEIRA%</strong></p>
+    <p style="width:60px">Espécie<br/><strong>%ESPECIE%</strong></p>
+    <p style="width:60px">Quantidade<br/><strong>%QUANTIDADE%</strong></p>
+    <p style="width:90px">Valor documento<br/><strong>%VALOR_BOLETO%</strong></p>
+    <p style="width:178px">(=) Valor documento<br/><strong>%VALOR_BOLETO%</strong></p>
+  </div>
+
+  <div class="bloquete">
+    <div class="instrucoes_caixa">
+      <p style="width:564px" class="demonstrativo">Instruções (Texto de responsabilidade do cedente)<br/><br/>
+        <strong>%INSTRUCOES1%</strong><br/>
+        <strong>%INSTRUCOES2%</strong><br/>
+        <strong>%INSTRUCOES3%</strong>
+      </p>
+    </div>
+    <div class="valores">
+      <p style="width:178px">(-) Desconto / Abatimentos<br/><strong>%DESCONTO_ABATIMENTO%</strong></p>
+      <p style="width:178px">(-) Outras deduções<br/><strong>%OUTRAS_DEDUCOES%</strong></p>
+      <p style="width:178px">(+) Mora / Multa<br/><strong>%MORA_MULTA%</strong></p>
+      <p style="width:178px">(+) Outros acréscimos<br/><strong>%OUTROS_ACRESCIMOS%</strong></p>
+      <p style="width:178px">(=) Valor cobrado<br/><strong>%VALOR_COBRADO%</strong></p>
+    </div>
+
+  </div>
+
+  <div class="bloquete">
+    <p style="width:468px" class="sacado">
+      Sacado<br/>
+      <strong>%SACADO%</strong><br/>
+      <strong>%ENDERECO1%</strong><br/>
+      <strong>%ENDERECO2%</strong>
+    </p>
+    <p style="width:178px" class="sacado"><br/><br/><br/>Cod. Baixa</p>
+    <div style="clear:both">&nbsp;</div>
+  </div>
+
+  <div class="bloquete">
+    <p style="width:418px" class="linha_final">Sacador/Avalista<br/><strong>%AVALISTA%</strong></p>
+    <p style="width:228px" class="linha_final">Autenticação mecânica - <strong>Ficha de Compensação</strong></p>
+  </div>
+
+  <div class="barcode">
+    %CODIGO_BARRAS%
+  </div>
+
+  <div style="clear:both">&nbsp;</div>
+
+  <h5>Corte na linha pontilhada</h5>
+ 
+</div><!-- recibo_do_sacado -->
+
+<div style="clear:both">&nbsp;</div>

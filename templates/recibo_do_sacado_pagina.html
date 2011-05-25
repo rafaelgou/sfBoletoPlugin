@@ -1,0 +1,55 @@
+<div class="recibo_do_sacado">
+  <h6>Recibo do Sacado</h6>
+
+  <div class="identificacao_empresa">
+    <p><img class="logo" src="%LOGO_EMPRESA%" alt=""/>BAH</p>
+    <p>%IDENTIFICACAO%<br/>%CPF_CNPJ%<br/>%ENDERECO%<br/>%CIDADE_UF%</p>
+  </div>
+
+  <div class="cabecalho_boleto">
+    <p><img class="logo" src="%IMAGE_PATH%/%LOGO_BANCO%" alt="logo banco"/></p>
+    <p class="codigo_banco">%CODIGO_DO_BANCO_COM_DV%</p>
+    <p class="linha_digitavel">%LINHA_DIGITAVEL%</p>
+  </div>
+
+  <div class="bloquete">
+    <div style="width:294px">Cedente<p class="p-left">%CEDENTE%</p></div>
+    <div style="width:121px">Agência/Código do Cedente<p>%AGENCIA_CODIGO%/%CODIGO_CEDENTE%</p></div>
+    <div style="width:31px">Espécie<p>%ESPECIE%</p></div>
+    <div style="width:50px">Quantidade<p>%QUANTIDADE%</p></div>
+    <div style="width:117px">Nosso número<p>%NOSSO_NUMERO%</p></div>
+  </div>
+
+  <div class="bloquete">
+    <div style="width:188px">Número do documento<p>%NUMERO_DOCUMENTO%</p></div>
+    <div style="width:128px">CPF/CNPJ<p>%CPF_CNPJ%</p></div>
+    <div style="width:130px">Vencimento<p>%DATA_VENCIMENTO%</p></div>
+    <div style="width:178px">Valor documento<p>%VALOR_BOLETO%</p></div>
+  </div>
+
+  <div class="bloquete">
+    <div style="width:117px">(-) Desconto / Abatimentos<p>%DESCONTO_ABATIMENTO%</p></div>
+    <div style="width:106px">(-) Outras deduções<p>%OUTRAS_DEDUCOES%</p></div>
+    <div style="width:106px">(+) Mora / Multa<p>%MORA_MULTA%</p></div>
+    <div style="width:106px">(+) Outros acréscimos<p>%OUTROS_ACRESCIMOS%</p></div>
+    <div style="width:178px">(=) Valor cobrado<p>%VALOR_COBRADO%</p></div>
+  </div>
+
+  <div class="bloquete">
+    <div style="width:659px">Sacado<p class="p-left">%SACADO%</p></div>
+  </div>
+
+  <div class="bloquete">
+    <div style="width:468px" class="demonstrativo">Demonstrativo
+      <p class="p-left">
+        %DEMONSTRATIVO1%<br/>
+        %DEMONSTRATIVO2%<br/>
+        %DEMONSTRATIVO3%
+      </p>
+    </div>
+    <div style="width:178px" class="demonstrativo">Autenticação mecânica</p>
+  </div>
+</div><!-- recibo_do_sacado -->
+
+<div class="clear"></div>
+

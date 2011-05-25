@@ -1,0 +1,40 @@
+body {margin:0;padding:0 5px;text-align: justify;color: black;background: white;font:normal normal normal 10px/1.0em "Arial", "Helvetica", "sans-serif";}
+.body_pagina {width: 670px}
+.body_carne  {width: 1100px}
+img {border:none;margin:0;padding:0}
+.instrucoes { width: 650px;background: #fff; margin: 0; padding: 10px}
+.instrucoes h1 {text-align: center; font-size: 14px; margin: 0; padding: 0;}
+.linha_digitavel { font-weight: bold; font-size: 12px; padding: 0 0 0 30px;line-height: 1.1em}
+h5 {font-size: 8px;border-bottom: 2px dotted black; text-align: right; margin: 10px 0}
+h6 {font-size: 10px;border-top: 2px dotted black; text-align: right; margin: 10px 0}
+.recibo_do_sacado { width: 670px;}
+.identificacao_empresa {margin: 15px 0 }
+.identificacao_empresa p {padding: 0 5px; display: inline-block;margin:0}
+.cabecalho_boleto {border-bottom: 2px solid black;}
+.cabecalho_boleto .logo {width: 144px;}
+.cabecalho_boleto p { height: 22px; padding: 0 5px; display: inline-block;margin:0;}
+.cabecalho_boleto .codigo_banco {font-size: 22px; border-left: 2px solid black;border-right: 2px solid black}
+.cabecalho_boleto .linha_digitavel {font-size: 14px; text-align: right; width: 430px;}
+.bloquete {font-size: 9px; font-family: "Arial Narrow", "Helvetica", "sans-serif"; color: #000033;}
+.bloquete div {float: left; padding: 0 5px; line-height: 1.2em;height: 25px; margin:0; border-bottom: 1px solid black;border-left: 1px solid black;vertical-align: top}
+.bloquete div p {text-align:right;font-weight: bold;margin-top: 0}
+.bloquete div p.p-left {text-align:left;}
+.bloquete div.demonstrativo {border:none;}
+p.linha_final {border:none;float:left;margin:0;padding:0;}
+.codigo_barras {clear:both;border: none;height:50px;margin:0;padding:0;border-bottom: 5px solid #fff  }
+.codigo_barras img {border:none;margin:0;height:50px}
+.bloquete .instrucoes_caixa {width:472px; margin:0;height:130px ;padding: 0 0 0 5px ;display: inline-block;border:none;border-bottom: 1px solid black;border-left: 1px solid black;vertical-align: top}
+.bloquete .instrucoes_caixa p {line-height: 1.5em;text-align:left;}
+.bloquete .valores {padding: 0;margin:0;width:178px; display: inline-block}
+.bloquete .sacado {height:auto;line-height: 1.1em;font-size: 1.4em;}
+.bloquete_recibo_do_sacado {width:138px;border:2px solid #000;}
+.carne_recibo_do_sacado {float:left;}
+.carne_sacado_caixa {padding: 0 5px; width:150px;float:left;border-right: 1px dotted black;margin-right:5px;}
+.carne_sacado_caixa h2 {font-size: 8px;text-align: center; margin: 5px 0; font-size:14px;line-height: 14px;border-bottom:2px solid #000}
+.carne_sacado_caixa h3 {text-align: right;}
+.carne_sacado_caixa h4 {font-size: 8px;text-align: left; margin: 5px 0; font-size:12px;line-height: 14px;}
+.clear {clear:both;height:1px;}
+.page_break {page-break-after:always;clear:both;height:1px;margin: 1px 0 5px 0;width:100%;}
+.page_space {clear:both;height:1px;margin: 1px 0 5px 0;width:100%;}
+.page_break_line {page-break-after:always;clear:both;height:1px;margin: 1px 0 5px 0;width:100%;border-bottom: 1px dotted #555}
+.page_space_line {clear:both;height:1px;margin: 1px 0 5px 0;width:100%;border-bottom: 1px dotted #555}
