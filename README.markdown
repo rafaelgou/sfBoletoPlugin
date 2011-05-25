@@ -2,8 +2,6 @@
 
 GitHub: <http://github.com/rafaelgou/sfBoletoPlugin>
 
-IMPORTANTE: ainda não publicado, em estágio ALPHA. Por favor, não faça fork neste estágio!!
-
 ## Introdução
 
 No Brasil existe um método de pagamento largamente utilizado por bancos que é o Boleto ou Bloquete de Cobrança.
