@@ -154,10 +154,10 @@ class sfBoletoHSBC extends sfBaseBoleto {
     }
 
     //Guarda inicial
-    $barra = '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$fino.'px;" />' .
-             '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" />' .
-             '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$fino.'px;" />' .
-             '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" />' ;
+    $barra = '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$fino.'px;" alt="p"/>' .
+             '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" alt="b" />' .
+             '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$fino.'px;" alt="p" />' .
+             '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" alt="b" />' ;
 
     $texto = $valor ;
     if((strlen($texto) % 2) <> 0)
@@ -180,7 +180,7 @@ class sfBoletoHSBC extends sfBaseBoleto {
           $f1 = $largo ;
         }
 
-        $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$f1.'px;" />';
+        $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$f1.'px;" alt="p" />';
 
         if (substr($f,$i,1) == "0")
         {
@@ -189,14 +189,14 @@ class sfBoletoHSBC extends sfBaseBoleto {
           $f2 = $largo ;
         }
 
-        $barra .= '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$f2.'px;" />';
+        $barra .= '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$f2.'px;" alt="b" />';
       }
     }
 
     // Draw guarda final
-    $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$largo.'px;" />';
-    $barra .= '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" />';
-    $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width: 1px;" />';
+    $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width:'.$largo.'px;" alt="p" />';
+    $barra .= '<img src="' . $this->getImagePath() . '/b.png" style="width:'.$fino.'px;" alt="b" />';
+    $barra .= '<img src="' . $this->getImagePath() . '/p.png" style="width: 1px;" alt="p" />';
 
     return $barra;
 
